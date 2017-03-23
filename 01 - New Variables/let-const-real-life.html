@@ -6,16 +6,15 @@
 </head>
 <body>
 <script>
-  {
-    const name = 'wes';
-    console.log(name);
-  }
+  //let and const are BLOCK scope
+  const name = 'Josh'
 
+  // let correctly evaluates numbers in your for loop!!!
   for(let i = 0; i < 10; i++) {
     console.log(i);
     setTimeout(function() {
       console.log('The number is ' + i);
-    },1000);
+    },1000)
   }
 
 </script>

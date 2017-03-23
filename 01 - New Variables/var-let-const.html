@@ -12,6 +12,10 @@
   }
   setWidth();
 
+  // open and close bracket is a blocked statement
+  // let is for only the block
+  // const works the same
+  // they are block scope, vs function scope (like var)
   var age = 100;
   if(age > 12) {
     const dogYears = age * 7;
